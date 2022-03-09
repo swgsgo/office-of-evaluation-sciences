@@ -9,7 +9,7 @@ abstract:
 year: 2022  
 domain: Government Operations
 agency: General Services Administration
-status: Ongoing
+status: Complete
 summary: Analysis Plan Registration
 featured: homepage
 ---
