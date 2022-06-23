@@ -1,0 +1,14 @@
+// Identifier component - - - - - - - - - - - - - - -
+.usa-identifier {
+  @include typeset($theme-identifier-font-family, "sm", 3);
+  @include set-text-and-bg(
+    $theme-identifier-background-color,
+    $context: $identifier-context
+  );
+  padding-bottom: units(2);
+}
+
+.usa-identifier__container {
+  @include grid-container;
+  @include u-maxw($theme-identifier-max-width);
+}
